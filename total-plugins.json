@@ -1,0 +1,27 @@
+[
+    {
+        "name": "test-plugin",
+        "pluginName": "test-plugin",
+        "description": "测试插件",
+        "version": "1.0.0",
+        "main": "index.html",
+        "preload": "preload.js",
+        "logo": "https://picx.zhimg.com/80/v2-984076df46c3a43a75834e26cc1c7dee_720w.png",
+        "pluginType": "ui",
+        "features": [
+            {
+                "code": "ip",
+                "explain": "查询本机的内外网ip",
+                "cmds": [
+                    "ip",
+                    "ipconfig",
+                    "ifconfig",
+                    "地址"
+                ]
+            }
+        ],
+        "homePage": "https://raw.githubusercontent.com/trifolium-wang/ip-config-plugin/master/README.md",
+        "author": "Trifolium",
+        "license": "MIT"
+    }
+]
